@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/UserMenu"
+        android:title="User">
+        <menu>
+            <item
+                android:id="@+id/Map"
+                android:title="Map" />
+            <item
+                android:id="@+id/Address"
+                android:title="Address" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/PublicMenu"
+        android:title="Public">
+        <menu>
+            <item
+                android:id="@+id/PublicMap"
+                android:title="Map"/>
+        </menu>
+    </item>
+</menu>
+
