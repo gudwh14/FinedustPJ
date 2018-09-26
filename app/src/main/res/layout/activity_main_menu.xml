@@ -34,4 +34,35 @@
         android:layout_marginTop="32dp"
         android:background="@drawable/imgbtn_menuselect" />
 
+    <TextView
+        android:id="@+id/dustText"
+        android:layout_width="90dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="174dp"
+        android:gravity="center"
+        android:textColor="#ff6200"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/userIDText"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dustText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-174dp"
+        android:gravity="center"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/addrText"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dustText"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#000dff"
+        android:textSize="10sp" />
+
 </RelativeLayout>
